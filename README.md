@@ -1,31 +1,56 @@
-<<<<<<< HEAD
-# LoginPage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+# Login Page - Angular 💻
 
-## Development server
+Projeto de página de login e cadastro feito em Angular, com foco na estrutura de front-end. Este projeto é ideal como base para sistemas que exigem autenticação de usuários.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📌 Sobre
 
-## Code scaffolding
+Esta aplicação foi desenvolvida como exemplo prático de uma interface de autenticação em Angular. Ela contém as telas de:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Login
+- Cadastro
+- Layout base para páginas protegidas
 
-## Build
+O back-end ainda não está incluso neste projeto.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Como rodar localmente
 
-## Running unit tests
+### ✔️ Pré-requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Antes de iniciar, certifique-se de ter os seguintes itens instalados:
 
-## Running end-to-end tests
+- [Node.js](https://nodejs.org/) (recomendado: versão LTS)
+- [Angular CLI](https://angular.io/cli)
+- [Git](https://git-scm.com/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 🔄 Clonando o repositório
 
-## Further help
+```bash
+git clone https://github.com/JWK08/login-page.git
+cd login-page
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# login-page
->>>>>>> 143ae560e7d52996a1ecdec8fbed7634cf194c53
+### 🛠️ Instalando dependências
+
+```bash
+npm install
+```
+
+### 🔥 Rodando o projeto
+
+```bash
+ng serve
+```
+
+O projeto estará disponível em [http://localhost:4200](http://localhost:4200).
+
+## 🌍 Rotas
+
+| Rota      | Descrição          |
+| --------- | ------------------ |
+| `/login`  | Página de login    |
+| `/signup` | Página de cadastro |
+
+## 📝 Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
