@@ -51,6 +51,4 @@ O projeto estará disponível em [http://localhost:4200](http://localhost:4200).
 | `/login`  | Página de login    |
 | `/signup` | Página de cadastro |
 
-## 📝 Licença
 
-Este projeto é licenciado sob a [MIT License](LICENSE).
